@@ -17,6 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* HiveBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HiveBoardViewController.m */; };
 		B5E93F0A1260FDE400D1EEFB /* HexView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E93F091260FDE400D1EEFB /* HexView.m */; };
 		B5E93F16126102F300D1EEFB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E93F15126102F300D1EEFB /* QuartzCore.framework */; };
+		B5E940B61261405900D1EEFB /* BugTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E940B51261405900D1EEFB /* BugTileView.m */; };
+		B5E941061261437500D1EEFB /* Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E941051261437500D1EEFB /* Drawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,10 @@
 		B5E93F081260FDE400D1EEFB /* HexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexView.h; path = ../HexView.h; sourceTree = "<group>"; };
 		B5E93F091260FDE400D1EEFB /* HexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexView.m; path = ../HexView.m; sourceTree = "<group>"; };
 		B5E93F15126102F300D1EEFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5E940B41261405900D1EEFB /* BugTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugTileView.h; sourceTree = "<group>"; };
+		B5E940B51261405900D1EEFB /* BugTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugTileView.m; sourceTree = "<group>"; };
+		B5E941041261437500D1EEFB /* Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing.h; sourceTree = "<group>"; };
+		B5E941051261437500D1EEFB /* Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				28D7ACF70DDB3853001CB0EB /* HiveBoardViewController.m */,
 				B5E93F081260FDE400D1EEFB /* HexView.h */,
 				B5E93F091260FDE400D1EEFB /* HexView.m */,
+				B5E940B41261405900D1EEFB /* BugTileView.h */,
+				B5E940B51261405900D1EEFB /* BugTileView.m */,
+				B5E941041261437500D1EEFB /* Drawing.h */,
+				B5E941051261437500D1EEFB /* Drawing.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -181,6 +191,8 @@
 				1D3623260D0F684500981E51 /* HiveBoardAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* HiveBoardViewController.m in Sources */,
 				B5E93F0A1260FDE400D1EEFB /* HexView.m in Sources */,
+				B5E940B61261405900D1EEFB /* BugTileView.m in Sources */,
+				B5E941061261437500D1EEFB /* Drawing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

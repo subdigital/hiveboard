@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BugTileView.h"
 
 @interface HiveBoardViewController : UIViewController <UIScrollViewDelegate> {
 	UIView *gameBoardView;
+	BugTileView *currentDraggingView;
+	CGPoint dragOffset;
 }
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, retain) IBOutlet UIView *tileContainerView;
 
 @end
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <QuartzCore/QuartzCore.h>
 
 @interface HexView : UIView {
 	BOOL isHighlighted;
@@ -20,6 +20,7 @@
 @property (nonatomic, assign) CGPoint p5;
 @property (nonatomic, assign) CGPoint p6;
 
+-(CAShapeLayer *)shapeLayer;
 -(void)highlight;
 
 @end

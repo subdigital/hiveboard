@@ -12,12 +12,6 @@
 #define DEGREES_TO_RADIANS(d) (d * M_PI / 180)
 #define RADIANS_TO_DEGREES(r) (r * 180 / M_PI)
 
-static inline CGPoint PointFromPointDistanceAngle(CGPoint source, CGFloat angle, CGFloat distance) {
-	CGFloat x2 = source.x + (cos(angle)*distance);
-	CGFloat y2 = source.y + (sin(angle)*distance);
-	return CGPointMake(x2, y2);
-}
-
 @implementation HexView
 
 @synthesize p1, p2, p3, p4, p5, p6;
@@ -45,8 +39,8 @@ static inline CGPoint PointFromPointDistanceAngle(CGPoint source, CGFloat angle,
 		shapeLayer.strokeColor = [[UIColor lightGrayColor] CGColor];
 		self.userInteractionEnabled = YES;
 		
-		self.gestureRecognizers = [NSArray arrayWithObject:
-								   [[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)] autorelease]];
+//		self.gestureRecognizers = [NSArray arrayWithObject:
+//								   [[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)] autorelease]];
     }
     return self;
 }
